@@ -1,0 +1,112 @@
+#notMember {
+    margin-top: 1em;
+}
+
+/* sign up modal, rules*/
+
+.modal-backdrop {
+    background-color: black;
+    opacity: 0.9 !important;
+}
+.modal-header {
+    background: var(--bggradient);
+    border: none;
+}
+.modal-footer {
+    background: var(--bggradient2);
+    border: none;
+}
+.modal-header .fa-times{
+    color: red;
+}
+ 
+.modal-header .fa-times:hover {
+    color: red;
+}
+
+/*.modal-body {
+    background: linear-gradient(-45deg, #048e59, #08d85b, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+    border: none;
+    
+}*/
+.modal-body {
+    background: #08d85b;
+    background-size: 100% 100%;
+    border: none;
+    
+}
+.hide {
+    display: none;
+}
+
+#auth-error {
+    margin-right: 13%;
+    font-size: 2rem;
+    color: darkred;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.form-control {
+    background: transparent;
+    border: 1px solid white;
+    border-radius: 10rem;
+    box-shadow: none;
+}
+.form-control:hover {
+    border-color: black;
+}
+
+#sign-up-btn {
+    background-color: var(--bggradient2);
+    border-color: white;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 2rem;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 1s;
+}
+#sign-up-btn:hover {
+    background: #048e59;
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+    border: none;
+    transform: translateY(-7px);
+}
+#log-in-btn {
+    background-color: var(--bggradient2);
+    border-color: white;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 2rem;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 1s;
+}
+/*#log-in-btn:hover {
+    background: linear-gradient(-45deg, #048e59, #08d85b, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+    border: none;
+    transform: translateY(-7px);
+}*/
+#log-in-btn:hover {
+    background: #048e59;
+    background-size: 400% 400%;
+    border: none;
+    transform: translateY(-7px);
+}
+
